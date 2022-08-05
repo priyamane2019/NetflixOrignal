@@ -1,0 +1,330 @@
+.container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-rows: 80px 800px 500px 500px 500px 500px 1000px;
+    grid-auto-flow: column;
+}
+nav {
+    display: grid;
+    grid-template-columns: 800px 300px 200px;
+    background-color: black;
+    height: 70px;
+    color: white;
+}
+.i1, .i2 {
+    font-weight: 400;
+    margin-top: 50px;
+    display: inline;
+    visibility: visible;
+}
+.i1, .i2 {
+    height: 50px;
+    width: 700px;
+    border: none;
+}
+.i2 {
+    width: 150px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+}
+.selection {
+    background-color: black;
+    color: white;
+    margin: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+.btn {
+    background-color: red;
+    color: white;
+    margin: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.item0 {
+    background-color: black;
+}
+.item1 {
+    background-color:black;
+    border-bottom: 3px solid #9486;
+    background-image: url("opp1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.para {
+    color: white;
+    font-weight: 1000;
+    text-align: center;
+    margin: 150px;
+    line-height: 20px;
+    opacity: 1;
+}
+.p1, .p2 {
+    font-size: 50px;
+}
+.p3 {
+    font-size: 30px;
+}
+.p4 {
+    font-size: 20px;
+}
+.item2, .item3, .item4, .item5{
+    padding: 40px 50px 20px 50px;
+    border-bottom: 3px solid #9486;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: black;
+}
+.i2para {
+    color: white;
+    text-align: start;
+    margin-left: 80px;
+    margin-top: 70px;
+}
+.i2p1 {
+    font-size: 30px;
+    line-height: 10px;
+}
+.i2p2, .i2p3, .i2p4 {
+    font-size: 20px;
+    line-height: 10px;
+}
+.smarttvon {
+    margin-left: 80px;
+    margin-top: 60px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+.i3para {
+    color: white;
+    text-align: start;
+    line-height: 20px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.img1 {
+    margin-bottom: 20px;
+}
+.i3p1, .i3p2 {
+    font-size: 30px;
+}
+.i3p3, .i3p4 {
+    font-size: 20px;
+}
+.i4para {
+    color: white;
+    text-align: start;
+    line-height: 10px;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+.i4p1 {
+    font-size: 30px;
+}
+.i4p2, .i4p3 {
+    font-size: 20px;
+}
+.childimg {
+    border: none;
+    border-radius: 30%;
+}
+.i5para {
+    color: white;
+    text-align: start;
+    line-height: 10px;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+.imgi5 {
+    margin-left: 80px;
+    margin-top: 70px;
+}
+.i5p1, .i5p2 {
+    font-size: 30px;
+}
+.i5p3, .i5p4, .i5p5 {
+    font-size: 20px;
+}
+
+.item6 {
+    padding: 20px 20px 20px 20px;
+    background-color: black;
+    border-bottom: 3px solid #9486;
+    margin-bottom: 0;
+}
+h3 {
+    font-size: 20px;
+    padding-top: 30px;
+    color: white;
+}
+.i3, .i4 {
+    font-weight: 400;
+    margin-top: 50px;
+    display: inline;
+    visibility: visible;
+
+}
+.i3 {
+    width: 450px;
+    height: 50px;
+}
+.i4 {
+    width: 150px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+.main1 {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 280px;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+}
+.ques {
+    max-width: 650px;
+    overflow: hidden;
+    font-weight: 500;
+    position: relative;
+}
+
+.ques label {
+    font-weight: 600;
+    font-size: 20px;
+    background: #303030;
+    color: #fff;
+    display: block;
+    cursor: pointer;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+div.ques div.ans {
+    min-height: 1px;
+    overflow: hidden;
+    border-radius: 4px;
+    line-height: 1.4;
+    position: relative;
+    top: -100%;
+    max-height: 0;
+}
+.ques input:checked~.ans {
+    max-height: 200px;
+    max-width: 650px;
+    padding-bottom: 25px;
+    font-size: medium;
+    background: #303030;
+    color: white;
+    padding: 20px;
+    opacity: 1;
+    top: 0;
+}
+div.ques .header {
+    display: block;
+    padding: 15px 30px;
+    border-bottom: 2px solid #989898;
+    cursor: pointer;
+}
+input {
+    display: none;
+}
+.plus {
+    height: 30px;
+    width: 30px;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    position: absolute;
+}
+.close {
+    color: red;
+    height: 30px;
+    width: 30px;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    position: absolute;
+}
+.ques .ans label {
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+.ch1 , .ch2{
+    background-color:black;
+    padding: 40px 70px 10px 70px;
+    text-align: center;
+}
+
+@media screen and (max-width:480px) {
+    body {
+        background-color: black;
+        color: black;
+    }
+    nav {
+        grid-template-columns: 300px 200px 100px;
+        background-color: black;
+        color: white;
+    }
+    .container{
+        grid-template-rows: 80px 800px 800px 800px 800px 800px 1000px;
+        text-align: center;
+    }
+    .item0{
+        grid-template-columns: 40px;
+        padding: 1px;
+        text-align:center;
+    }
+    .item1{
+        grid-template-columns: 500px;
+        text-align:center;
+        padding: 1px;
+        margin: 0;
+    }
+    .para{
+        text-align:center;
+        padding: 1px;
+    }
+    .item2, .item3, .item4, .item5 {
+        grid-template-columns: 500px;
+        text-align:center;
+        padding: 70px;
+    }
+    .item6{
+        margin:0;
+        padding: 1px;
+        text-align: center;
+    }
+   h1{
+       text-align: center;
+       padding:70px;
+   }
+.main1 {
+    display: flex;
+    text-align:center;
+    max-width: 500px;
+}
+.ch1 , .ch2 {
+        padding:1px;
+        text-align: center;
+        background-color: black;
+    }
+}
