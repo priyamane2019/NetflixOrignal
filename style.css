@@ -280,51 +280,122 @@ input {
         color: black;
     }
     nav {
-        grid-template-columns: 300px 200px 100px;
+        grid-template-columns: 100px 100px 100px;
         background-color: black;
         color: white;
     }
     .container{
-        grid-template-rows: 80px 800px 800px 800px 800px 800px 1000px;
-        text-align: center;
+        grid-template-rows: 70px 600px 800px 800px 800px 800px 900px;
+        text-align: start;
+        padding:0;
+        margin:0;
+    }
+    .logo1
+    {
+        width:50px;
+        height: 50px;
+        padding: 10px;
     }
     .item0{
         grid-template-columns: 40px;
-        padding: 1px;
         text-align:center;
     }
     .item1{
-        grid-template-columns: 500px;
-        text-align:center;
+        text-align:start;
         padding: 1px;
         margin: 0;
     }
     .para{
-        text-align:center;
-        padding: 1px;
+        text-align:start;
+        padding: 10px;
+        margin:10px;
+    }
+    .p1, .p2 {
+        font-size: 30px;
+    }
+    .p3 {
+        font-size: 20px;
+    }
+    .p4 {
+        font-size: 10px;
+    }
+    .i1{
+        width:300px;
     }
     .item2, .item3, .item4, .item5 {
         grid-template-columns: 500px;
-        text-align:center;
-        padding: 70px;
+        text-align:start;
+        padding:5px;
+        margin:0;
+    }
+    .i2para, .i3para, .i4para, .i5para{
+        text-align:start;
+        padding: 10px 10px 0px 10px;
+        margin: 0px 0px 0px 0px;
+        word-wrap: break-word;
+        line-height: normal;
+    }
+    .mbimg, video, .childimg
+    {
+        width:300px;
+        height:300px;
+        border: 2px solid red;
+    }
+    .mbimg, .childimg
+    {
+        padding: 10px;
+        margin-top:40px;
+        border:none;
+    }
+    .smarttvon ,   .imgi5
+    {
+        padding: 10px 10px 0px 10px;
+        margin: 0px 0px 0px 0px;
+        border: none;
+        border-radius: 5px;
     }
     .item6{
         margin:0;
         padding: 1px;
-        text-align: center;
+        text-align: start;
     }
    h1{
-       text-align: center;
+       text-align: start;
        padding:70px;
    }
 .main1 {
     display: flex;
-    text-align:center;
-    max-width: 500px;
+    text-align:start;
+    max-width: 320px;
+    padding: 5px;
+    margin:3px;
+}
+h1{
+    text-align: start;
+    padding: 5px;
+    font-size:larger;
 }
 .ch1 , .ch2 {
-        padding:1px;
-        text-align: center;
+        padding:5px;
+        margin:0;
+        text-align: start;
         background-color: black;
+    }
+    .i4{
+        height:50px;
+        border-radius: 5px;
+        width:200px;
+    }
+    .i3{
+      width:300px;
+      border-radius: 5px;
+    }
+    .plus {
+        height: 20px;
+        width: 20px;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        position: absolute;
     }
 }
